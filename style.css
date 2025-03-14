@@ -1,0 +1,151 @@
+#inicio{
+    background: rgb(119,53,32);
+    background: -moz-linear-gradient(121deg, rgba(119,53,32,1) 5%, rgba(154,84,50,1) 15%, rgba(111,50,31,1) 57%, rgba(18,17,21,1) 74%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(121deg, rgba(119,53,32,1) 5%, rgba(154,84,50,1) 15%, rgba(111,50,31,1) 57%, rgba(18,17,21,1) 74%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(121deg, rgba(119,53,32,1) 5%, rgba(154,84,50,1) 15%, rgba(111,50,31,1) 57%, rgba(18,17,21,1) 74%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#773520",endColorstr="#000000",GradientType=1);
+}
+#transição{
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,0) 16%, rgba(248,248,248,0) 35%, rgba(240,240,240,0) 50%, rgba(9,4,15,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,0) 16%, rgba(248,248,248,0) 35%, rgba(240,240,240,0) 50%, rgba(9,4,15,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 16%, rgba(248,248,248,0) 35%, rgba(240,240,240,0) 50%, rgba(9,4,15,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#09040f",GradientType=1);
+}
+#logo{
+    padding-top: 6vh;
+}
+#nav{
+    padding-top: 9.5vh;
+   margin-left:30px
+}
+#navtext{
+    color:aliceblue;
+    font-weight: 500;
+}
+#navtextinicio{
+    color:#FF8A40;
+    font-weight: 500;
+    text-decoration: underline;
+
+}
+#navtext:hover{
+    color:#FF8A40;
+}
+img{height: 40px;}
+#resto{background:#09040F;}
+#break-text{word-break: break-all;
+    overflow-wrap: break-word;}
+#Titulo{
+    padding-left: 7vw;
+    padding-top: 2vh;
+word-break: break-all;
+overflow-wrap: break-word;
+font-size: .9em;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+h1{
+font-weight:bolder;
+color: aliceblue;
+font-size:5em;
+}
+p{
+    font-weight: bold;
+font-size:1.2em;
+color:#FF9659;
+}
+#minitexto2{
+    padding-top: 20vh;
+    padding-left: 7vw;
+    font-size: 1em;
+    color:#D73802
+}
+#subtitulo{
+    padding-left: 7vw;
+    font-size: 2.5em;
+    color:white;
+    margin-top: 0;
+    line-height: 1;
+}
+#texto2{
+    padding-left: 7vw;
+    color:#FF9659
+}
+
+#blocos{
+ padding: 0px; /* Reduzindo o espaçamento entre os blocos */
+ padding-bottom: 0; /* Removendo espaço extra na parte inferior */
+ margin-left: 7vw;
+ margin-right: 7vw;
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: center; /* Centraliza horizontalmente */
+ align-items: stretch; /* Mantém os itens alinhados verticalmente */
+ gap: 0px; /* Espaçamento entre os blocos */
+}
+
+#blocostyle{
+    background-color: #181628;
+    margin: 1px;  /* Diminuindo a margem para aproximar os blocos */
+    flex: 1; /* Faz os blocos ocuparem o mesmo espaço */
+    min-width: 360px;
+    max-width:360px;
+    margin-bottom: 0px;
+}
+
+#blocoh1{
+color:white;
+font-size: 1.8em;
+}
+
+#video{
+    margin-top:20vh
+}
+#circulologo{
+
+    background-color:#2B2B2B;
+    padding-top: 2%; /* Diminuindo o espaçamento interno */
+    width: 4vw; /* Reduzindo o tamanho do círculo */
+    height: 4vw;
+}
+#blocop{
+    font-size: 0.9em;
+    font-weight:bold;
+}
+
+.button-container {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente */
+    gap: 15px; /* Espaço entre o botão e o texto */
+    margin-top: 20px;
+}
+
+#cta-button {
+    background-color:#D93600;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cta-button:hover {
+    background-color:#EE0C0C;
+}
+
+#texto-ao-lado {
+    font-size: 1.2em;
+    color: #FF8A40;
+    font-weight: bold;
+}
+
+.check-list {
+    margin-left: 10vw;
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente */
+    gap: 15px; /* Espaço entre o botão e o texto */
+}
